@@ -10,10 +10,12 @@ secondBurger.weight = 500;
 console.log(hamburger.name); // ?
 console.log(secondBurger.name ); // ?
 ```
-1. Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
+1. Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?  
+  console.log(hamburger.name); // Double Cheese Burger  
+  console.log(secondBurger.name); // Double Cheese Burger
 
-2. Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
-
+2. Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?  
+  Un solo oggetto => { name: "Cheese Burger", wight: 250 }
 ---
 
 ## Code Question 2
