@@ -32,10 +32,12 @@ secondBurger.ingredients[0] = "Salad";
 console.log(hamburger.ingredients[0]); // ?
 console.log(secondBurger.ingredients[0]); // ?
 ```
-P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi di Riferimento)!
-1. Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?
-
-2. Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi di Riferimento)!  
+1. Senza lanciare il codice, riesci a prevedere cosa viene stampato in console?  
+  console.log(hamburger.ingredients[0]); // Salad  
+  console.log(secondBurger.ingredients[0]); // Salad
+2. Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?  
+  Due oggetti
 
 ---
 
