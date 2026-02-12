@@ -37,7 +37,8 @@ P.S.: Ricordati che gli Array, come gli oggetti, sono dei Reference Type (Tipi d
   console.log(hamburger.ingredients[0]); // Salad  
   console.log(secondBurger.ingredients[0]); // Salad
 2. Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?  
-  Due oggetti
+  Due oggetti X 
+  Gli oggetti sono 3 perché anche l'array interno viene salvato in memoria
 
 ---
 
