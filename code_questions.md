@@ -86,6 +86,8 @@ const restaurant = {
     isOpen: false,
 };
 ```
-1. Qual è il metodo migliore per clonare l’oggetto chef, e perché?
+1. Qual è il metodo migliore per clonare l’oggetto chef, e perché?  
+  Per clonare l'oggetto si può usare lo spread operator perché all'interno dell'oggetto c'è una funzione
 
-2. Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?
+2. Qual è il metodo migliore per clonare l’oggetto restaurant, e perché?  
+  Si può usare structuredClone() perché all'interno c'è una Date. Se usassimo JSON.parse(JSON.stingify()) la data sarebbe trasformata in una stringa.
